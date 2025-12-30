@@ -119,11 +119,10 @@ A browser-based demo reproduces the behavior of the original Java console progra
 
 ## Professional Emphasis
 
-Across these projects, several patterns are consistent:
+Across these projects, several key skills are consistent:
 
-- Turning raw or loosely structured data into reliable working datasets  
-- Designing systems that behave predictably at scale  
-- Prioritizing clarity in both analysis and presentation  
-- Building workflows that resemble how analytics and data systems are used in practice  
+- Taking raw data and transforming that data into practical, user-centered metrics
+- Designing systems that scale, considering space, and time efficiency   
+- Prioritizing user-first clarity in both analysis and presentation   
 
 This portfolio will continue to evolve as new work is added and existing projects are refined.
