@@ -1,5 +1,7 @@
 # James Crawford - Data & Analytics Portfolio
 
+[LinkedIn Profile](https://www.linkedin.com/in/j-crawford05/)
+
 This portfolio brings together a set of projects built around working carefully with data. The work moves from raw inputs through cleaning, organization, and analysis, with an emphasis on producing results that are clear, well-structured, and genuinely useful.
 
 The goal across these projects is consistency and clarity. Data is cleaned carefully, assumptions are made explicit, and results are presented in a way that supports exploration rather than overselling conclusions.
