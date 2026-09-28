@@ -6,6 +6,8 @@ This portfolio brings together a set of projects built around working carefully 
 
 The goal across these projects is consistency and clarity. Data is cleaned carefully, assumptions are made explicit, and results are presented in a way that supports exploration rather than overselling conclusions.
 
+Please note that I am currently developing a more robust landing page for my portfolio. It is still a work in progress and will be added as a github page upon completion. If you are interested in what I'm working on, or want a sneak peek, I'd be happy to chat about it; just shoot me an email or text (found on my resume)!
+
 ---
 
 ## Global Temperature Change Explorer
