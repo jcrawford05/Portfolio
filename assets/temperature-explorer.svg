@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Global Temperature Change Explorer preview</title>
+  <desc id="desc">A stylized analytical dashboard with a United States map, controls, and a temperature change legend.</desc>
+  <rect width="1200" height="720" fill="#f1e6d5"/>
+  <rect x="34" y="32" width="1132" height="656" rx="3" fill="#e7d7c1" stroke="#2a2d34" stroke-opacity=".2"/>
+  <rect x="34" y="32" width="1132" height="76" fill="#2a2d34"/>
+  <text x="68" y="73" fill="#e7d7c1" font-family="Arial, sans-serif" font-size="22" font-weight="700">GLOBAL TEMPERATURE CHANGE EXPLORER</text>
+  <text x="1002" y="73" fill="#a78a7f" font-family="Arial, sans-serif" font-size="13">D3 / DATA VIEW</text>
+  <rect x="65" y="137" width="274" height="513" fill="#f1e6d5" stroke="#2a2d34" stroke-opacity=".2"/>
+  <text x="88" y="172" fill="#2a2d34" font-family="Arial, sans-serif" font-size="12" font-weight="700">COMPARE CLIMATE RECORDS</text>
+  <text x="88" y="211" fill="#558564" font-family="Arial, sans-serif" font-size="11">REGION</text>
+  <rect x="88" y="225" width="222" height="39" fill="#e7d7c1" stroke="#2a2d34" stroke-opacity=".25"/>
+  <text x="103" y="250" fill="#2a2d34" font-family="Arial, sans-serif" font-size="13">United States</text><path d="m285 241 8 8 8-8" fill="none" stroke="#558564" stroke-width="2"/>
+  <text x="88" y="306" fill="#558564" font-family="Arial, sans-serif" font-size="11">TIME RESOLUTION</text>
+  <rect x="88" y="320" width="105" height="37" fill="#558564"/><text x="121" y="344" fill="#f1e6d5" font-family="Arial, sans-serif" font-size="12" font-weight="700">YEARLY</text>
+  <rect x="198" y="320" width="112" height="37" fill="none" stroke="#2a2d34" stroke-opacity=".25"/><text x="227" y="344" fill="#2a2d34" font-family="Arial, sans-serif" font-size="12">MONTHLY</text>
+  <text x="88" y="399" fill="#558564" font-family="Arial, sans-serif" font-size="11">YEAR RANGE</text>
+  <line x1="99" y1="439" x2="299" y2="439" stroke="#2a2d34" stroke-opacity=".3" stroke-width="3"/><circle cx="132" cy="439" r="8" fill="#bf4342"/><circle cx="271" cy="439" r="8" fill="#bf4342"/>
+  <text x="88" y="477" fill="#2a2d34" font-family="Arial, sans-serif" font-size="14">1901</text><text x="265" y="477" fill="#2a2d34" font-family="Arial, sans-serif" font-size="14">2024</text>
+  <line x1="88" y1="530" x2="310" y2="530" stroke="#2a2d34" stroke-opacity=".16"/>
+  <text x="88" y="565" fill="#2a2d34" font-family="Arial, sans-serif" font-size="12">Hover a state to inspect its trend.</text>
+  <text x="88" y="588" fill="#a78a7f" font-family="Arial, sans-serif" font-size="11">BASELINE: 1901–1930 AVERAGE</text>
+  <g transform="translate(385 135)">
+    <text x="0" y="30" fill="#2a2d34" font-family="Arial, sans-serif" font-size="15" font-weight="700">ANNUAL CHANGE FROM BASELINE</text>
+    <text x="0" y="54" fill="#a78a7f" font-family="Arial, sans-serif" font-size="11">Average temperature difference by state</text>
+    <path d="M82 184 117 153 160 145 203 165 244 156 286 174 331 153 371 166 411 151 451 160 493 178 532 194 571 216 607 252 641 276 627 314 604 327 591 370 556 362 535 402 508 385 480 407 450 390 413 407 386 387 352 399 315 380 281 399 253 371 218 383 185 367 148 351 116 321 88 289 63 248Z" fill="#558564" stroke="#f1e6d5" stroke-width="3"/>
+    <path d="M93 193 129 166 169 160 211 177 251 168 292 185 334 164 376 178 417 161 457 171 499 189 537 204 576 226 612 263 599 302 579 313 565 353 539 345 518 381 490 366 461 387 428 371 395 389 367 370 331 382 298 362 269 383 237 355 205 367 174 350 142 334 113 306 84 267 70 242Z" fill="#6d9f7c" opacity=".65"/>
+    <g fill="#bf4342" stroke="#f1e6d5" stroke-width="2"><circle cx="173" cy="228" r="7"/><circle cx="235" cy="273" r="6"/><circle cx="292" cy="231" r="5"/><circle cx="359" cy="286" r="6"/><circle cx="434" cy="236" r="7"/><circle cx="514" cy="282" r="6"/><circle cx="561" cy="328" r="5"/></g>
+    <g fill="#e7d7c1" font-family="Arial, sans-serif" font-size="10"><text x="159" y="224">WA</text><text x="278" y="227">ND</text><text x="422" y="232">NY</text><text x="505" y="278">VA</text><text x="548" y="324">FL</text></g>
+    <text x="0" y="472" fill="#558564" font-family="Arial, sans-serif" font-size="11">TEMPERATURE CHANGE (°C)</text>
+    <rect x="0" y="490" width="360" height="17" fill="url(#legend)"/>
+    <text x="0" y="531" fill="#a78a7f" font-family="Arial, sans-serif" font-size="11">-2.0</text><text x="170" y="531" fill="#a78a7f" font-family="Arial, sans-serif" font-size="11">0.0</text><text x="342" y="531" fill="#a78a7f" font-family="Arial, sans-serif" font-size="11">+2.0</text>
+  </g>
+  <defs><linearGradient id="legend"><stop offset="0" stop-color="#456b71"/><stop offset=".5" stop-color="#e7d7c1"/><stop offset="1" stop-color="#bf4342"/></linearGradient></defs>
+</svg>

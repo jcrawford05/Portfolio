@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#2a2d34">
+    <meta name="description" content="James Crawford — data science, analytics, and data engineering portfolio.">
+    <meta property="og:title" content="James Crawford | Data Science, Analytics & Data Engineering">
+    <meta property="og:description" content="Analytical tools, reliable systems, and practical insight built from complex data.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jcrawford05.github.io/Portfolio/">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <script>
+      document.documentElement.classList.add('js');
+      (() => {
+        try {
+          const theme = localStorage.getItem('portfolio-theme');
+          if (theme === 'light' || theme === 'dark') {
+            document.documentElement.dataset.theme = theme;
+          }
+        } catch (error) {
+          // The site still uses the visitor's system preference if storage is unavailable.
+        }
+      })();
+    </script>
+    <title>James Crawford | Data Science, Analytics & Data Engineering</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header" data-site-header>
+      <a class="brand" href="#welcome" aria-label="James Crawford home">
+        <span class="brand__mark" aria-hidden="true">JC</span>
+        <span class="brand__name">James Crawford</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch theme">
+          <span class="theme-toggle__icon" aria-hidden="true">◐</span>
+          <span class="theme-toggle__text">Theme</span>
+        </button>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero section-dark" id="welcome" aria-labelledby="hero-title">
+        <div class="hero__grid" aria-hidden="true"></div>
+        <div class="hero__trace hero__trace--one" aria-hidden="true"></div>
+        <div class="hero__trace hero__trace--two" aria-hidden="true"></div>
+        <div class="container hero__inner">
+          <div class="hero__content reveal">
+            <p class="eyebrow">James Crawford <span class="eyebrow__rule"></span> 2026</p>
+            <h1 id="hero-title">Data Science,<br><em>Analytics</em> &amp;<br>Data Engineering</h1>
+            <p class="hero__lead">I turn complex data into clear analysis, reliable systems, and practical insight.</p>
+            <a class="button button--primary" href="#about" data-scroll-link>
+              Get Started <span aria-hidden="true">↘</span>
+            </a>
+          </div>
+          <div class="hero__aside reveal" aria-label="Portfolio focus areas">
+            <div class="hero__signal">
+              <span class="signal-dot"></span>
+              <span>Applied analytical work</span>
+            </div>
+            <p>From raw data and careful assumptions to tools people can explore and trust.</p>
+            <div class="hero__index" aria-hidden="true">
+              <span>01</span><span>04</span><span>08</span><span>12</span>
+            </div>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#about" data-scroll-link>
+          <span>Scroll to explore</span><span aria-hidden="true">↓</span>
+        </a>
+      </section>
+
+      <section class="section section-light" id="about" aria-labelledby="about-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow eyebrow--accent">01 / About</p>
+              <h2 id="about-title">Making complex information<br><em>easier to use.</em></h2>
+            </div>
+            <p class="section-heading__note">A practical approach to data work: understand the source, make the assumptions visible, and deliver something useful.</p>
+          </div>
+
+          <div class="about-layout">
+            <div class="about-copy reveal">
+              <p class="lede">I build analytical tools and data-driven projects that make complex information easier to understand and use.</p>
+              <p>My work brings together data preparation, exploratory analysis, pipeline development, interactive visualization, and software design. Across public-sector, marketing, and manufacturing settings, I focus on transparent assumptions, dependable workflows, and results that help people make better decisions.</p>
+              <div class="about-stamp" aria-label="Data work principles">
+                <span>Understand</span><span>Transform</span><span>Communicate</span>
+              </div>
+            </div>
+            <div class="capability-grid" aria-label="Capabilities">
+              <article class="capability-card reveal">
+                <span class="card-number">01</span>
+                <h3>Data analysis<br>&amp; modeling</h3>
+                <p>Python, SQL, pandas, NumPy, SciPy, exploratory data analysis, statistical reasoning, and machine learning foundations.</p>
+                <div class="card-line" aria-hidden="true"></div>
+              </article>
+              <article class="capability-card reveal">
+                <span class="card-number">02</span>
+                <h3>Data engineering<br>&amp; delivery</h3>
+                <p>Data integration, validation, schema analysis, transformation workflows, Redshift, MySQL, MariaDB, and Git/GitHub.</p>
+                <div class="card-line" aria-hidden="true"></div>
+              </article>
+              <article class="capability-card reveal">
+                <span class="card-number">03</span>
+                <h3>Visualization<br>&amp; communication</h3>
+                <p>D3.js, Looker, Tableau, Matplotlib, Seaborn, interactive visualization, and analytical storytelling.</p>
+                <div class="card-line" aria-hidden="true"></div>
+              </article>
+              <article class="capability-card reveal">
+                <span class="card-number">04</span>
+                <h3>Systems &amp; technical<br>reasoning</h3>
+                <p>Java, data structures, performance analysis, process optimization, reproducibility, and documentation.</p>
+                <div class="card-line" aria-hidden="true"></div>
+              </article>
+            </div>
+          </div>
+
+          <div class="credentials-band">
+            <div class="credentials-heading reveal">
+              <p class="eyebrow eyebrow--accent">Credentials</p>
+              <h2>Certifications &amp;<br><em>continued learning.</em></h2>
+              <p>Selected credentials supporting a habit of building practical, current skills.</p>
+            </div>
+            <div class="credential-grid">
+              <article class="credential-card credential-card--official reveal">
+                <div class="credential-badge credential-badge--ds" aria-hidden="true"><span>DS</span><small>ASSOCIATE</small></div>
+                <div>
+                  <h3>Dassault Systemes<br>Certified Associate</h3>
+                  <p>Dassault Systemes <span>·</span> Issued 2026</p>
+                </div>
+              </article>
+              <article class="credential-card credential-card--official reveal">
+                <div class="credential-badge credential-badge--ai" aria-hidden="true"><span>AI</span><small>PRO SKILLS</small></div>
+                <div>
+                  <h3>AI Professional<br>Skills Certification</h3>
+                  <p>Global Career Accelerator / OpenAI <span>·</span> 2026</p>
+                </div>
+              </article>
+              <article class="credential-card reveal">
+                <div class="credential-badge credential-badge--placeholder" aria-hidden="true"><span>✦</span><small>BADGE SLOT</small></div>
+                <div>
+                  <h3>Google AI Professional Certificate</h3>
+                  <p>Coursera <span>·</span> Issued 2026</p>
+                  <span class="placeholder-label">Artwork pending</span>
+                </div>
+              </article>
+              <article class="credential-card reveal">
+                <div class="credential-badge credential-badge--placeholder" aria-hidden="true"><span>⌘</span><small>BADGE SLOT</small></div>
+                <div>
+                  <h3>Python and Data Certification</h3>
+                  <p>Global Career Accelerator <span>·</span> Issued 2026</p>
+                  <span class="placeholder-label">Artwork pending</span>
+                </div>
+              </article>
+              <article class="credential-card reveal">
+                <div class="credential-badge credential-badge--placeholder" aria-hidden="true"><span>◎</span><small>BADGE SLOT</small></div>
+                <div>
+                  <h3>Intercultural Skills Certification</h3>
+                  <p>Global Career Accelerator <span>·</span> Issued 2026</p>
+                  <span class="placeholder-label">Artwork pending</span>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-dark experience-section" id="experience" aria-labelledby="experience-title">
+        <div class="container">
+          <div class="section-heading section-heading--dark reveal">
+            <div>
+              <p class="eyebrow">02 / Work experience</p>
+              <h2 id="experience-title">Work that moves<br><em>from data to decisions.</em></h2>
+            </div>
+            <p class="section-heading__note">Outcome-focused experience across public-sector analytics, marketing data, and manufacturing systems.</p>
+          </div>
+
+          <div class="experience-list">
+            <article class="experience-card reveal">
+              <div class="experience-card__meta"><span class="experience-index">01</span><span class="status-pill">Current</span></div>
+              <div class="experience-card__main">
+                <p class="eyebrow">May 2026 — Present</p>
+                <h3>Data Analytics Intern</h3>
+                <p class="experience-card__org">Salt Lake County <span>/</span> Office of Homelessness &amp; Criminal Justice Reform</p>
+                <p class="experience-card__summary">I support fiscal analysis, data quality, and KPI reporting for public-sector programs by bringing disconnected sources into dependable analytical workflows.</p>
+              </div>
+              <ul class="evidence-list">
+                <li>Created a large-scale, web-based fiscal analysis tool to help inform policy changes and program integration.</li>
+                <li>Implemented validation workflows using external reference datasets to reduce manual-entry errors.</li>
+                <li>Integrated multiple sources into existing KPI dashboards through schema analysis, transformation, and cleansing.</li>
+              </ul>
+            </article>
+
+            <article class="experience-card reveal">
+              <div class="experience-card__meta"><span class="experience-index">02</span></div>
+              <div class="experience-card__main">
+                <p class="eyebrow">May 2025 — August 2025</p>
+                <h3>Marketing Analytics Intern</h3>
+                <p class="experience-card__org">Clearlink</p>
+                <p class="experience-card__summary">I analyzed marketing and customer data, improved access to decision-ready metrics, and helped keep data pipelines reliable for reporting.</p>
+              </div>
+              <ul class="evidence-list">
+                <li>Analyzed large-scale marketing and customer datasets with SQL and Python.</li>
+                <li>Built and optimized pipelines and dashboards with Looker and Amazon Redshift.</li>
+                <li>Diagnosed API and pipeline failures, protecting data quality for downstream reporting.</li>
+              </ul>
+            </article>
+
+            <article class="experience-card reveal">
+              <div class="experience-card__meta"><span class="experience-index">03</span></div>
+              <div class="experience-card__main">
+                <p class="eyebrow">May 2023 — August 2023<br>May 2024 — August 2024</p>
+                <h3>Manufacturing Engineering Intern</h3>
+                <p class="experience-card__org">Triumph Gear Systems</p>
+                <p class="experience-card__summary">I applied data and process-engineering methods to improve production workflows, information quality, and tooling reliability.</p>
+              </div>
+              <ul class="evidence-list">
+                <li>Audited and cleaned a 100,000+ record tooling database with VBA and SQL.</li>
+                <li>Analyzed product-flow data to develop process specifications for new production lines.</li>
+                <li>Designed and implemented 90+ custom part-protection tools after identifying failure points.</li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="additional-experience reveal">
+            <div>
+              <p class="eyebrow">Additional experience</p>
+              <h3>Applied engineering, operations,<br>and process improvement.</h3>
+            </div>
+            <div class="additional-role"><span>2021</span><strong>Manager of Manufacturing</strong><small>Magbay Lures</small></div>
+            <div class="additional-role"><span>2019</span><strong>Process Engineering Intern</strong><small>Barnes Aerospace</small></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-light projects-section" id="projects" aria-labelledby="projects-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow eyebrow--accent">03 / Selected projects</p>
+              <h2 id="projects-title">Projects built to be<br><em>explored.</em></h2>
+            </div>
+            <p class="section-heading__note">A selection of interactive visualization, exploratory analysis, and performance-focused systems work.</p>
+          </div>
+
+          <article class="project project--featured reveal">
+            <div class="project__visual project__visual--featured">
+              <img src="assets/temperature-explorer.svg" alt="Preview of an interactive United States temperature change map with controls and a color legend" loading="lazy">
+              <span class="visual-label">Featured / Interactive data visualization</span>
+            </div>
+            <div class="project__copy">
+              <p class="eyebrow eyebrow--accent">Interactive data visualization</p>
+              <h3>Global Temperature<br><em>Change Explorer</em></h3>
+              <p class="project__outcome">An interactive D3 application that transforms long-term U.S. climate records into state-level comparisons across decades, regions, and time resolution.</p>
+              <p>The explorer reshapes large climate datasets into browser-ready analytical views, letting visitors compare absolute temperature patterns and relative change at monthly or yearly resolution. It was designed to make long-term trends approachable without requiring a technical background.</p>
+              <div class="tag-list" aria-label="Project technologies"><span>D3.js</span><span>JavaScript</span><span>Data Engineering</span><span>GeoJSON</span><span>Interactive Visualization</span></div>
+              <div class="project-links"><a class="text-link" href="https://jcrawford05.github.io/us-temperature-changes/" target="_blank" rel="noopener">Live explorer <span aria-hidden="true">↗</span></a><a class="text-link" href="https://github.com/jcrawford05/us-temperature-changes" target="_blank" rel="noopener">Repository <span aria-hidden="true">↗</span></a></div>
+            </div>
+          </article>
+
+          <div class="project-stack">
+            <article class="project project--supporting reveal">
+              <div class="project__visual"><img src="assets/accident-analysis.svg" alt="Preview of a regression diagnostic chart for state-level automotive accident fatality analysis" loading="lazy"><span class="visual-label">Regression diagnostic</span></div>
+              <div class="project__copy">
+                <p class="eyebrow eyebrow--accent">Exploratory data analysis</p>
+                <h3>Socioeconomic Factors in<br><em>Automotive Accident Fatalities</em></h3>
+                <p class="project__outcome">An exploratory analysis of how state-level socioeconomic indicators relate to fatal motor-vehicle accident rates, with careful attention to correlation, uncertainty, and interpretation.</p>
+                <p>The project combines public datasets, cleans and joins state-level measures, and uses visual analysis to investigate patterns without overstating causation.</p>
+                <div class="tag-list"><span>Python</span><span>pandas</span><span>EDA</span><span>Statistical Interpretation</span></div>
+                <div class="project-links"><a class="text-link" href="https://jcrawford05.github.io/Socioeconomic-Factors-In-Automotive-Accident-Fatalities/" target="_blank" rel="noopener">Live report <span aria-hidden="true">↗</span></a><a class="text-link" href="https://github.com/jcrawford05/Socioeconomic-Factors-In-Automotive-Accident-Fatalities" target="_blank" rel="noopener">Repository <span aria-hidden="true">↗</span></a></div>
+              </div>
+            </article>
+
+            <article class="project project--supporting project--reverse reveal">
+              <div class="project__visual project__visual--dark"><img src="assets/dictionary-demo.svg" alt="Preview of a dark dictionary application console showing lookup and runtime metadata" loading="lazy"><span class="visual-label">Java system / runtime testing</span></div>
+              <div class="project__copy">
+                <p class="eyebrow eyebrow--accent">Software systems &amp; performance</p>
+                <h3>Dictionary<br><em>Application</em></h3>
+                <p class="project__outcome">A dictionary system designed around efficient word lookup and range queries, supported by controlled timing experiments and a browser-based demonstration of the original Java logic.</p>
+                <p>The project emphasizes custom data-structure design, predictable runtime behavior, and separating implementation, experimentation, and presentation.</p>
+                <div class="tag-list"><span>Java</span><span>Data Structures</span><span>Runtime Analysis</span><span>JavaScript</span></div>
+                <div class="project-links"><a class="text-link" href="https://jcrawford05.github.io/Dictionary/" target="_blank" rel="noopener">Live demo <span aria-hidden="true">↗</span></a><a class="text-link" href="https://github.com/jcrawford05/Dictionary" target="_blank" rel="noopener">Repository <span aria-hidden="true">↗</span></a></div>
+              </div>
+            </article>
+          </div>
+
+          <div class="more-work reveal">
+            <div class="more-work__mark" aria-hidden="true">+</div>
+            <div><p class="eyebrow eyebrow--accent">Next in the pipeline</p><h3>More projects in progress.</h3><p>Additional work in data science, analytics, and data engineering is on the way.</p></div>
+            <span class="more-work__status">Continuing →</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section-dark" id="contact" aria-labelledby="contact-title">
+        <div class="contact__pattern" aria-hidden="true"></div>
+        <div class="container contact__inner">
+          <div class="contact__copy reveal">
+            <p class="eyebrow">04 / Contact</p>
+            <h2 id="contact-title">Let’s<br><em>connect.</em></h2>
+            <p>Interested in discussing data, analytical systems, or a potential opportunity? I would be glad to connect.</p>
+          </div>
+          <div class="contact__links reveal" aria-label="Contact links">
+            <a href="https://www.linkedin.com/in/j-crawford05/" target="_blank" rel="noopener"><span>LinkedIn</span><span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/jcrawford05" target="_blank" rel="noopener"><span>GitHub</span><span aria-hidden="true">↗</span></a>
+            <a href="mailto:jrcrawford665@gmail.com"><span>Email</span><span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-dark">
+      <div class="container site-footer__inner">
+        <span>© 2026 James Crawford</span>
+        <span>Built with HTML / CSS / JavaScript</span>
+        <a href="#welcome">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>

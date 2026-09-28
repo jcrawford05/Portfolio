@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" role="img" aria-labelledby="title desc">
+  <title id="title">Automotive accident fatalities regression diagnostic preview</title>
+  <desc id="desc">A stylized residuals versus fitted values chart with a subtle trend line and state labels.</desc>
+  <rect width="1000" height="640" fill="#3a3b43"/>
+  <rect x="42" y="38" width="916" height="564" fill="#2a2d34" stroke="#e7d7c1" stroke-opacity=".18"/>
+  <text x="78" y="87" fill="#e7d7c1" font-family="Arial, sans-serif" font-size="19" font-weight="700">REGRESSION DIAGNOSTIC</text>
+  <text x="78" y="114" fill="#a78a7f" font-family="Arial, sans-serif" font-size="12">Socioeconomic factors / automotive accident fatalities</text>
+  <g transform="translate(128 159)">
+    <line x1="0" y1="348" x2="700" y2="348" stroke="#e7d7c1" stroke-opacity=".42"/><line x1="0" y1="0" x2="0" y2="348" stroke="#e7d7c1" stroke-opacity=".42"/>
+    <g stroke="#e7d7c1" stroke-opacity=".11"><line x1="0" y1="87" x2="700" y2="87"/><line x1="0" y1="174" x2="700" y2="174"/><line x1="0" y1="261" x2="700" y2="261"/><line x1="140" y1="0" x2="140" y2="348"/><line x1="280" y1="0" x2="280" y2="348"/><line x1="420" y1="0" x2="420" y2="348"/><line x1="560" y1="0" x2="560" y2="348"/></g>
+    <line x1="0" y1="170" x2="700" y2="177" stroke="#558564" stroke-width="3" stroke-dasharray="8 7"/>
+    <g fill="#bf4342" stroke="#e7d7c1" stroke-opacity=".3"><circle cx="34" cy="102" r="6"/><circle cx="68" cy="220" r="5"/><circle cx="103" cy="148" r="7"/><circle cx="145" cy="263" r="5"/><circle cx="181" cy="125" r="6"/><circle cx="215" cy="193" r="6"/><circle cx="254" cy="87" r="5"/><circle cx="291" cy="225" r="7"/><circle cx="326" cy="140" r="5"/><circle cx="360" cy="204" r="6"/><circle cx="397" cy="164" r="5"/><circle cx="435" cy="280" r="6"/><circle cx="470" cy="121" r="6"/><circle cx="511" cy="232" r="5"/><circle cx="544" cy="152" r="7"/><circle cx="579" cy="195" r="5"/><circle cx="617" cy="95" r="6"/><circle cx="654" cy="243" r="6"/></g>
+    <text x="284" y="395" fill="#a78a7f" font-family="Arial, sans-serif" font-size="12">FITTED FATALITY RATE</text>
+    <text transform="translate(-74 250) rotate(-90)" fill="#a78a7f" font-family="Arial, sans-serif" font-size="12">STANDARDIZED RESIDUAL</text>
+    <g fill="#a78a7f" font-family="Arial, sans-serif" font-size="10"><text x="-25" y="353">-2</text><text x="-25" y="178">0</text><text x="-25" y="8">2</text><text x="0" y="370">0.0</text><text x="332" y="370">0.5</text><text x="665" y="370">1.0</text></g>
+  </g>
+  <rect x="780" y="155" width="125" height="35" fill="#558564"/><text x="803" y="178" fill="#e7d7c1" font-family="Arial, sans-serif" font-size="11" font-weight="700">MODEL CHECK</text>
+  <text x="780" y="229" fill="#a78a7f" font-family="Arial, sans-serif" font-size="11">Each point is a state.</text><text x="780" y="250" fill="#a78a7f" font-family="Arial, sans-serif" font-size="11">No causal claim implied.</text>
+</svg>
