@@ -10,7 +10,7 @@ The goal across these projects is consistency and clarity. Data is cleaned caref
 
 ---
 
-## Global Temperature Change Explorer
+## U.S. Temperature Change Explorer
 
 **End-to-end data visualization and analytics project**  
 Static web deployment with engineered datasets
